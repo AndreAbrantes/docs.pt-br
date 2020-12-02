@@ -51,7 +51,7 @@ A melhoria da inicialização discutida aqui se aplica não apenas à inicializa
 
 ### <a name="interaction-with-tiered-compilation"></a>Interação com compilação em camadas
 
-O antes do tempo gerado não é tão otimizado quanto o código produzido pelo JIT. Para resolver esse problema, a compilação em camadas substituirá os métodos ReadyToRun usados com métodos gerados por JIT.
+O resultado da compilação AOT (Ahead-of-time) não é tão otimizado quanto o código produzido pelo JIT. Para resolver esse problema, a compilação em camadas substituirá os métodos ReadyToRun usados com métodos gerados por JIT.
 
 ## <a name="how-is-the-set-of-precompiled-assemblies-chosen"></a>Como o conjunto de assemblies pré-compilados é escolhido?
 
